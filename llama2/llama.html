@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Completion</title>
+</head>
+<body>
+    <h1>Text Completion</h1>
+    <form method="POST" action="/">
+        <label for="prompt">Enter your prompt:</label><br>
+        <textarea id="prompt" name="prompt" rows="4" cols="50"></textarea><br><br>
+        <input type="submit" value="Complete">
+    </form>
+    <h2>Completed Text:</h2>
+    <p>{{ completed_text }}</p>
+</body>
+</html>
